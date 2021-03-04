@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+}
+.main-layout {
+    display: grid;
+    // flex-wrap: wrap;
+    margin-top: 120px;
+    grid-template-columns: 40px 1fr 40px;
+    grid-template-rows: auto;
+    // margin-right: 40px;
+    height: 100vh;
+    // margin-left: 40px;
+    > * {
+        grid-column: 2;
+    }
+}

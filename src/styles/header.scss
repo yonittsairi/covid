@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    // width: 100%;
+    background-color: black;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    cursor: pointer;
+    a {
+        padding: 5px 10px;
+        // margin: ;
+        &:active {
+            background-color: rgb(42, 11, 126);
+        }
+        &:hover {
+            background-color: rgb(42, 11, 126);
+        }
+    }
+}

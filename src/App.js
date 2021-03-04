@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import BarChart from './cmps/chart';
+import Vaccine from './cmps/vacciene';
+import Vaccine2 from './cmps/vaccine2';
+import VaccineByAge from './cmps/vaccineByAge';
+import VaccineByAgeSecond from './cmps/vaccineByAgeSecond';
+import Header from './cmps/header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div ><Header />
+      <div className="main-layout">
+        <Vaccine />
+        <Vaccine2 />
+        <BarChart></BarChart>
+        <div> <VaccineByAge />
+          <VaccineByAgeSecond /></div></div>
     </div>
   );
 }
