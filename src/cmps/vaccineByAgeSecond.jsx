@@ -6,8 +6,7 @@ import { chartColors } from '../services/colors'
 export default class VaccineByAgeSecond extends React.Component {
     state = {
 
-        labels: ['Jan', 'Febr', 'Mar',
-            'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        labels: [],
         datasets: [
             {
                 label: '',

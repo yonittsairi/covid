@@ -6,8 +6,7 @@ import { covidService } from '../services/covidService';
 export default class Vaccine2 extends React.Component {
     state = {
 
-        labels: ['Jan', 'Febr', 'Mar',
-            'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        labels: [],
         datasets: [
             {
                 label: '',

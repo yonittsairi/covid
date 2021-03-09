@@ -22,7 +22,7 @@ export const covidService = {
 async function getData() {
     try {
 
-        var data = await axios.get('https://data.gov.il/api/3/action/datastore_search?resource_id=d07c0771-01a8-43b2-96cc-c6154e7fa9bd&limit=60000', { headers })
+        var data = await axios.get('https://data.gov.il/api/3/action/datastore_search?resource_id=d07c0771-01a8-43b2-96cc-c6154e7fa9bd&limit=600000', { headers })
         return data.data.result
     }
     catch (err) {
